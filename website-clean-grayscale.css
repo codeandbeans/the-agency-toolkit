@@ -192,3 +192,7 @@ html {
 .read-more-button:hover .button-icon-end {
     transform: translateX(5px);
 }
+
+.hidden {
+    display: none;
+}
