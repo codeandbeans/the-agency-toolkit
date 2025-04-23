@@ -1,0 +1,194 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.rounded, .rounded img {
+    border-radius: 16px !important;
+}
+
+.rounded.btn {
+    border-radius: 10px !important;
+    ;
+}
+
+.btn, button {
+    transition: all 150ms ease-in-out;
+}
+
+.btn.btn--primary {
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+
+.btn.btn--secondary {
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.btn.btn--primary:hover {
+    background: #FFF;
+}
+
+.btn.btn--primary:hover div {
+    color: #000;
+}
+
+.btn.btn--secondary:hover {
+    background: #000;
+}
+
+.btn.btn--secondary:hover div {
+    color: #FFF;
+}
+
+.btn--lg {
+    padding: 20px 24px !important;
+}
+
+.section {
+}
+
+.section.section--primary {
+    background-color: #FFF;
+}
+
+.section.section--primary div,
+.section.section--primary p,
+.section.section--primary h1,
+.section.section--primary h2,
+.section.section--primary h3,
+.section.section--primary h4 {
+    color: #111;
+}
+
+.section.section--secondary {
+    background: #111;
+}
+
+.section.section--secondary div,
+.section.section--secondary p,
+.section.section--secondary h1,
+.section.section--secondary h2,
+.section.section--secondary h3,
+.section.section--secondary h4 {
+    color: #FFF;
+}
+
+.section.section--tertiary {
+    background-color: transparent;
+}
+
+.section.section--tertiary div,
+.section.section--tertiary p,
+.section.section--tertiary h1,
+.section.section--tertiary h2,
+.section.section--tertiary h3,
+.section.section--tertiary h4 {
+    color: #111;
+}
+
+.section .service-card {
+    background-color: #F9F9F9;
+}
+
+.section .service-card div, 
+.section .service-card p, 
+.section .service-card h1, 
+.section .service-card h2,
+.section .service-card h3,
+.section .service-card h4 {
+    color: #111;
+}
+
+.max-w-1280 {
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+}
+
+.hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+}
+
+.hero .inner {
+    position: relative;
+    z-index: 15 !important;
+}
+
+.hero::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.nav-header {
+    position: relative;
+    z-index: 40;
+}
+
+@media screen and (max-width: 760px) {
+    .navigation, .logo {
+        width: 48% !important;
+    }
+}
+
+.navigation {
+}
+
+.custom-shape-divider-bottom-1744099048 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1744099048 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 46px;
+}
+
+.custom-shape-divider-bottom-1744099048 .shape-fill {
+    fill: #F6F6F6;
+}
+
+.mega-menu-container .menu-item a.mega-menu-link .menu-item-title,
+.mega-menu-container .nav-menu-ul .menu-item .menu-item-title {
+    padding: 10px 16px !important;
+    border-radius: 7px !important;
+    transition: all 150ms ease-in-out;
+}
+
+.mega-menu-container .menu-item .sub-menu-align.submenu {
+    min-width: 100% !important;
+    right: 0 !important;
+}
+
+.mega-menu-container .image-container img {
+    max-width: 100px !important;
+    max-height: 60px !important;
+}
+
+.read-more-button .button-icon-start {
+    display: none;
+}
+
+.read-more-button .button-icon-end {
+    transition: all 150ms ease-in-out;
+}
+
+.read-more-button:hover .button-icon-end {
+    transform: translateX(5px);
+}
