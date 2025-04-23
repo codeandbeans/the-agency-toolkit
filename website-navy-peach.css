@@ -2,14 +2,17 @@
   /* Navy */
   --primary-color: #003049;
   --primary-color-darker: #001926;
+  --primary-color--text: #FFF;
   
   /* Beige */
   --secondary-color: #fef6e4;
   --secondary-color-darker: #e3d8bf;
+  --secondary-color-text: #111;
   
   /* Peach */
   --tertiary-color: #f3d2c1;
   --tertiary-color-darker: #d6a890;
+  --tertiary-color: #111;
 }
 
 html {
@@ -32,7 +35,7 @@ html {
 .btn.btn--primary {
     background: var(--primary-color);
     color: #FFF;
-    border: 2px solid #FFF;
+    border: none;
 }
 
 .btn.btn--primary div {
@@ -82,7 +85,7 @@ html {
 .section.section--primary h2,
 .section.section--primary h3,
 .section.section--primary h4 {
-    color: #000;
+    color: var(--primary-color-text);
 }
 
 .section.section--secondary {
@@ -95,7 +98,7 @@ html {
 .section.section--secondary h2,
 .section.section--secondary h3,
 .section.section--secondary h4 {
-    color: #111;
+    color: var(--seconcdary-color-text);
 }
 
 .section.section--tertiary {
@@ -108,7 +111,7 @@ html {
 .section.section--tertiary h2,
 .section.section--tertiary h3,
 .section.section--tertiary h4 {
-    color: #111;
+    color: var(--tertiary-color-text);
 }
 
 .section .service-card {
@@ -121,7 +124,7 @@ html {
 .section .service-card h2,
 .section .service-card h3,
 .section .service-card h4 {
-    color: #FFF;
+    color: var(--primary-color-text);
 }
 
 .max-w-1280 {
