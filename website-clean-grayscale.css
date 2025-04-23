@@ -16,7 +16,7 @@ html {
 }
 
 .btn.btn--primary {
-    background: transparent;
+    background: #FF0000;
     color: #FFF;
     border: 2px solid #FFF;
 }
