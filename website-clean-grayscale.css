@@ -21,18 +21,26 @@ html {
     border: 2px solid #FFF;
 }
 
+.btn.btn--primary div {
+    color: #FFF;
+}
+
 .btn.btn--primary:hover {
     background: #FFF;
 }
 
 .btn.btn--primary:hover div {
-    color: #FF0000;
+    color: #111;
 }
 
 .btn.btn--secondary {
     background: transparent;
     color: #000;
     border: 2px solid #000;
+}
+
+.btn.btn--secondary div {
+    color: #000;
 }
 
 .btn.btn--secondary:hover {
